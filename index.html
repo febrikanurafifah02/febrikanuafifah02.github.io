@@ -1,1 +1,57 @@
-Public Library
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perpustakaan Umum Digital</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+<div class="container">
+<a class="navbar-brand fw-bold text-primary">PerpusDigital</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="pages/katalog.html">Katalog</a></li>
+<li class="nav-item"><a class="nav-link" href="pages/artikel.html">Artikel</a></li>
+<li class="nav-item"><a class="nav-link" href="pages/event.html">Event</a></li>
+<li class="nav-item"><a class="nav-link" href="pages/kontak.html">Kontak</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+<section class="hero text-center">
+<div class="container">
+<h1 class="fw-bold">Perpustakaan Umum Digital</h1>
+<p>Website literasi modern untuk masyarakat</p>
+<input class="form-control search-box mx-auto" placeholder="Cari buku...">
+</div>
+</section>
+
+
+<section class="container py-5">
+<h3 class="mb-4">Buku Populer</h3>
+<div class="row" id="bookList"></div>
+</section>
+
+
+<footer class="text-center bg-primary text-white p-4">
+<p>© 2026 Perpustakaan Umum Digital</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/render.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
